@@ -35,6 +35,10 @@ body {
     margin-bottom: 0px;
 }
 
+.menu .nav > li.active > a {
+    background-color: #e7e7e7
+}
+
 .content {
     background-color: #fff;
 }
