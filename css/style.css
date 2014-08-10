@@ -51,6 +51,8 @@ body {
 
 .content {
     background-color: #fff;
+    background: url(../images/left-bg.png ) left 2% bottom 3% no-repeat,
+                url(../images/right-bg.png ) right 5% top 10% no-repeat;
 }
 
 .navbar-default {
@@ -80,10 +82,6 @@ body {
 
 .map {
     margin: 1em 0;
-}
-
-.page-content {
-
 }
 
 .contact-content {
@@ -118,6 +116,12 @@ body {
     .logo {
         display: block;
         padding: 0;
+    }
+    
+    .content {
+        background: url(../images/tsk.png ) right 3% bottom 10% no-repeat,
+                    url(../images/left-bg.png ) left 2% bottom 3% no-repeat,
+                    url(../images/right-bg.png ) right 5% top 10% no-repeat;
     }
     
     .logo img {
