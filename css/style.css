@@ -13,9 +13,6 @@ body {
 
 .gradient-bg {
     background-color: #056676;
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    background-image:      -o-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
-    background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
 
 .logo {
@@ -35,8 +32,21 @@ body {
     margin-bottom: 0px;
 }
 
+.navbar-nav > li > a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    color: #000;
+    font-size: 18px;
+}
+
+.header-img {
+    padding: 0;
+}
+
 .menu .nav > li.active > a  {
-    background-color: #e7e7e7
+    color: #056676;
+    text-decoration: underline;
 }
 
 .content {
@@ -83,7 +93,14 @@ body {
 @media (min-width: 751px) {
     
     .menu {
-        border-top: 3px solid #ff4700;
+        border-top: 4px solid #ff4700;
+    }
+    
+    .navbar-nav > li > a {
+        padding-left: 35px;
+        background-image: url(../images/dot.png);
+        background-repeat: no-repeat;   
+        background-position: 12px 50%;
     }
     
     .page-content {
@@ -99,14 +116,14 @@ body {
     }
     
     .logo {
-        display: block; 
+        display: block;
+        padding: 0;
     }
     
     .logo img {
         max-width: 100%;
-        padding: 15px;  
-        
     }
+    
 }
 
 /* Lightbox themes */
